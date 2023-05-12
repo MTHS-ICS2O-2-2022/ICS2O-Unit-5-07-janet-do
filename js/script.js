@@ -1,16 +1,24 @@
-// Copyright (c) 2020 Janet Do All rights reserved
+5 - 06
+// Copyright (c) 2022 Allen Li All rights reserved
 //
 // Created by: Janet Do
-// Created on: Sep 2020
+// Created on: Oct 2022
 // This file contains the JS functions for index.html
 
 "use strict"
 
-let integer = parseInt(prompt("Enter an integer: "));
-let sum = 0
+/**
+ * This function does multiplication.
+ */
+function calculate() {
+  var numA = parseFloat(document.getElementById("firstInputedNumber").value)
+  var product = 0
+  var counter = 0
 
-for (let counter = 1; counter <= integer; counter++) {
-  sum += counter
+  while (counter <= numA) {
+    product = product + counter
+    counter++
+  }
+
+  document.getElementById("product").innerHTML = "The product is: " + product
 }
-
-console.log("The sum of all numbers from 1 to " + integer + " is " + sum);
