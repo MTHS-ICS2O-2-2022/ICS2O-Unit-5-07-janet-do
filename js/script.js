@@ -11,9 +11,9 @@
  * This function does multiplication.
  */
 function calculate() {
-  var numA = parseFloat(document.getElementById("firstInputedNumber").value)
-  var product = 0
-  var counter = 0
+  const numA = parseFloat(document.getElementById("firstInputedNumber").value)
+  const product = 0
+  const counter = 0
 
   while (counter <= numA) {
     product = product + counter
