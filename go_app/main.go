@@ -16,11 +16,11 @@ func main() {
 	product := 0
 	equation := ""
 
-	for i := 1; i <= input; i++ {
-		product += i
-		equation += fmt.Sprintf("%d", i)
+	for counter := 1; counter <= input; counter++ {
+		product += counter
+		equation += fmt.Sprintf("%d", counter)
 
-		if i != input {
+		if counter != input {
 			equation += "+"
 		}
 	}
