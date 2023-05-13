@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Allen Li All rights reserved
+// Copyright (c) 2022 Janet Do All rights reserved
 //
 // Created by: Janet Do
 // Created on: Oct 2022
