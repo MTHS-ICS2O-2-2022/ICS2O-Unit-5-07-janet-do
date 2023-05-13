@@ -1,4 +1,3 @@
-5 - 06
 // Copyright (c) 2022 Allen Li All rights reserved
 //
 // Created by: Janet Do
