@@ -1,23 +1,19 @@
-// Copyright (c) 2022 Janet Do All rights reserved
-//
 // Created by: Janet Do
-// Created on: Oct 2022
-// This file contains the JS functions for index.html
+// Created on: May 2023
+// This file contains the JavaScript functions for index.html
 
 "use strict"
 
 /**
- * This function does multiplication.
+ * This function adds up all the numbers from 1 to the input value.
  */
 function calculate() {
   const numA = parseFloat(document.getElementById("firstInputedNumber").value)
-  const product = 0
-  const counter = 0
+  let sum = 0
 
-  while (counter <= numA) {
-    product = product + counter
-    counter++
+  for (let counter = 1; counter <= numA; counter++) {
+    sum += counter
   }
 
-  document.getElementById("product").innerHTML = "The product is: " + product
+  document.getElementById("sum").innerHTML = "The sum is: " + sum
 }
